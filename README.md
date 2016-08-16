@@ -1,4 +1,9 @@
 # Polmekos wp post updater
-### This plugin automatically updates posts with post title in another category (on save_post).
+### This plugin is looking for checked post meta from [PolmekosCF](https://github.com/polmekos/PolmekosCF) and if it is then grab post title from new post, search for post with checked title and update post content with this new title as unordered list `<ul>` at the end of it. 
 
-It works great with [PolmekosCF](https://github.com/polmekos/PolmekosCF)
+
+
+#### Changelog
+
+1.1 
+Added category change in admin menu (Settings->Polmekos wp post updater).
